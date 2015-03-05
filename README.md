@@ -31,11 +31,9 @@ or from within a terminal
 
 You will see the following printed to screen
 
-`Obtaining meta features for training set .....`
-
-`Training set subject 2, session 1`
-
-`Training set subject 2, session 2`
+```Obtaining meta features for training set .....
+Training set subject 2, session 1
+Training set subject 2, session 2```
 
 After the script is complete run `get_sess5_retrial_features.m`, `get_ave_amplitude_features.m`, `get_template_features1.m` and `finally get_template_features1.m`.
 
