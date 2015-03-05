@@ -85,7 +85,7 @@ Model 2, saving files ....
 This takes ~ 15 mins to run on my machine. The two models, together with an array containing index values (used for the sub-set selection), will be saved to the `trained_model_dir` directory. For convenienve, all these files can be found in the `trained_model` folder within this repository.
 
 # Using the model to predict
-Run `predict.py`
+Run `predict.py` as follows
 
 `python predict.py`
 
