@@ -29,10 +29,11 @@ n.b. it may be possible to use Octave (free) instead of Matlab (proprietary) but
   "submission": "submissions_dir"
 }
 ```
-* `data_dir` - directory containing the downloaded competition data
-* `features_dir` - directory containing the features extrated from the raw data
-* `trained_model_dir` - directory containing the trained model
-* `submissions_dir` - directory submissions are written to
+* `data_dir` - Directory containing the downloaded competition data
+* `features_dir` - Directory containing the features extrated from the raw data
+* `trained_model_dir` - Directory containing the trained model
+* `submissions_dir` - Directory submissions are written to
+
 # Generating features
 There are five Matlab scripts (`generate_meta_features.m`, `get_sess5_retrial_features.m`, `get_ave_amplitude_features.m`, `get_template_features1.m` and `get_template_features1.m`) which will generate the features used in my model. It's important to run these scripts in order as latter scripts use data produced by the former scripts. First run  `generate_meta_features.m`, then `get_sess5_retrial_features.m`, next `get_ave_amplitude_features.m`, then `get_template_features1.m` and finally `get_template_features1.m`.
 
