@@ -1,0 +1,6 @@
+{
+  "data": "data_dir",
+  "features": "features_dir",
+  "trained_model": "trained_model_dir",
+  "submission": "submissions_dir"
+}
