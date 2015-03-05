@@ -24,6 +24,12 @@ There are five Matlab scripts (generate_meta_features.m, get_sess5_retrial_featu
 To run generate_meta_features.m, simply type in the following in a matlab 
 
 `generate_meta_features`
+
+You will see the following printed to screen
+
+````Obtaining meta features for training set .....
+Training set subject 2, session 1
+Training set subject 2, session 2````
 # Fitting the model
 # Predicting using the model
 # Description of features
